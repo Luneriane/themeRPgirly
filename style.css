@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Raleway|Berkshire+Swash');
+
+body{
+  background-color: midnightblue;
+  max-width: 1200px;
+  margin-left: auto;
+}
+
+#mainFrame {                              /*cadre principal*/
+  border-radius: 15px;
+  margin: 1.5em;
+  padding: 1em;
+  background: #284162;
+  border-left: solid 5px deeppink;
+  border-right: solid 5px deeppink;
+}
+
+#topPic {                                 /*grande image*/
+  width: 100%;
+  border-radius:15px;  
+  border-top: solid 1px deeppink;
+  border-bottom: solid 1px deeppink;
+}
+
+#textFrame {                              /*cadre englobant tout le texte*/
+  display: flex;
+  flex-wrap:wrap;
+  position: relative;
+  top: -2em;
+  margin: -0.5em 1em;
+  font-size: 1.2em;
+  color: white;
+  text-shadow: 1px 0px 1px deeppink, 0px 1px 1px deeppink, -1px 0px 1px deeppink, 0px -1px 1px deeppink;
+}
+
+.separationBar {                            /*barre de séparation*/
+  width: 9em;
+  margin: auto;
+  border: solid 2px white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px deeppink, 2px 2px 1px deeppink, 3px 3px 3px deeppink;  
+}
+
+#titleBig {                                 /*grand titre*/
+  padding-bottom: 0.5em;
+  margin: auto;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 3em;
+  color: white;
+  text-shadow: 1px 1px 0px deeppink, 2px 2px 0px deeppink, 3px 3px 3px deeppink;
+  text-align: center;
+}
+
+.titleSmall {                              /*petits titres*/
+  padding: 0.2em;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 0px deeppink, 2px 2px 2px deeppink;
+}
+
+.heart {                                  /*coeurs*/
+  display: inline;
+  padding: 0.5em;
+  color: deeppink;
+  text-shadow: 1px 0px 2px MediumVioletRed, -1px 0px 2px MediumVioletRed, 0px -1px 2px MediumVioletRed, 0px 1px 2px MediumVioletRed;
+}
+
+.frameSmall {                              /*petit cadre de texte*/
+  width: 50%;
+  padding: 1em;
+  background-color: CornflowerBlue;
+  border-radius:10px;
+}
+
+.frameBig {                              /*grand cadre de texte*/
+  margin-top: 2em;
+  padding: 0.5em;
+  background-color: CornflowerBlue;
+  border-radius:10px;
+}
+
+.textPerso {                              /*écriture manuscrite*/
+  font-family: 'Indie Flower', cursive;
+}
+
+.textInfo {                              /*écriture informelle*/
+  font-family: 'Raleway', sans-serif;
+}
+
+.avatarLeft {                              /*images d'illustration à gauche du texte*/
+  float: left;
+  margin: 5px 10px;
+  width: 170px;
+  height: 250px;
+  overflow: hidden;
+  background-size: cover;
+  border: solid 10px white;
+  box-shadow: 2px 2px 5px darkblue;
+}
+
+.avatarRight {                              /*images d'illustration à droite du texte*/
+  float: right;
+  margin: 5px 10px;
+  width: 170px;
+  height: 250px;
+  overflow: hidden;
+  background-size: cover;
+  border: solid 10px white;
+  box-shadow: 2px 2px 5px darkblue;
+}
+
+.positionLeft {                        /*pour positionner un cadre à gauche*/
+  margin-right: auto;
+}
+
+.positionRight {                       /*pour positionner un cadre à droite*/
+  margin-left: auto;
+}
+
+.starBig {                              /*étoile de grande taille*/
+  transform: rotate(-35deg);
+  font-size: 9em;
+  color: white;
+  text-shadow: 2px 2px 2px gold;
+}
+
+.starMid {                              /*étoile de moyenne taille*/
+  transform: rotate(-55deg);
+  font-size: 6em;
+  color: white;
+  text-shadow: 2px 2px 2px gold;
+}
+
+.starSmall {                              /*étoile de petite taille*/
+  transform: rotate(-45deg);
+  font-size: 3em;
+  color: white;
+  text-shadow: 2px 2px 2px gold;
+}
+
+.heartBig {                              /*étoile de grande taille*/
+  transform: rotate(-35deg);
+  font-size: 9em;
+  color: pink;
+  text-shadow: 2px 2px 5px deeppink;
+}
+
+.heartrMid {                              /*étoile de moyenne taille*/
+  transform: rotate(-55deg);
+  font-size: 6em;
+  color: pink;
+  text-shadow: 2px 2px 5px deeppink;
+}
+
+.heartSmall {                              /*étoile de petite taille*/
+  transform: rotate(-45deg);
+  font-size: 3em;
+  color: pink;
+  text-shadow: 2px 2px 5px deeppink;
+}
+
+ul {                                      /*liste*/
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {                                    /*détail de la liste*/
+  padding-left: 1em;
+}
+li:before {
+  content: "❤";
+  padding-right: 0.5em;
+  color: deeppink;
+  text-shadow: 1px 0px 2px MediumVioletRed, -1px 0px 2px MediumVioletRed, 0px -1px 2px MediumVioletRed, 0px 1px 2px MediumVioletRed;
+}
+a {                                    /*liens*/
+  color: white;
+  text-shadow: 1px 0px 1px deeppink, -1px 0px 1px deeppink, 0px -1px 1px deeppink, 0px 1px 1px deeppink;
+  text-decoration: underline dotted white;
+}
+a:hover {                              /*lien quand survolé par la souris*/
+  color: pink;
+  text-shadow: 1px 0px 1px MediumVioletRed, -1px 0px 1px MediumVioletRed, 0px -1px 1px MediumVioletRed, 0px 1px 1px MediumVioletRed;
+  text-decoration: underline dotted pink;
+}
+#credits {
+  float: right;
+  margin: -0.5em 0em;
+  color: CornflowerBlue;
+}
